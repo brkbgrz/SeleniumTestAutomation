@@ -1,0 +1,673 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User registers by successfully completing the registration form",
+        "description": "",
+        "id": "create-account;user-registers-by-successfully-completing-the-registration-form",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5528612300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a web browser is at the automationpractice home page",
+            "match": {
+              "location": "RegisterStep.aWebBrowserIsAtAutomationpracticeTheHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1492170900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user click sign in button",
+            "match": {
+              "location": "RegisterStep.theUserClickSignInButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5289244100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user sees the AUTHENTICATION page",
+            "match": {
+              "location": "RegisterStep.userSeesTheAUTHENTICATIONPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 56728700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters account creation email address",
+            "match": {
+              "location": "RegisterStep.userEntersAccountCreationEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74566000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on create account button",
+            "match": {
+              "location": "RegisterStep.clickOnCreateAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11061334700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user sees the create an account page",
+            "match": {
+              "location": "RegisterStep.userSeesTheCreateAnAccountPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5294816200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user sees the personal information",
+            "match": {
+              "location": "RegisterStep.userSeesThePersonalInformation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64495900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks title",
+            "match": {
+              "location": "RegisterStep.userClicksTitle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5379770000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters the First Name",
+            "match": {
+              "location": "RegisterStep.userEntersTheFirstName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5324072600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enter the Last name",
+            "match": {
+              "location": "RegisterStep.userEnterTheLastName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5330883500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters the First Name",
+            "match": {
+              "location": "RegisterStep.userEntersTheFirstName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5320342800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters the Password",
+            "match": {
+              "location": "RegisterStep.userEntersThePassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5264590200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user sees the your adress",
+            "match": {
+              "location": "RegisterStep.userSeesTheYourAdress()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 56394400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters the First Name to adress",
+            "match": {
+              "location": "RegisterStep.userEntersTheFirstNameToAdress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64110400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters the Last Name to adress",
+            "match": {
+              "location": "RegisterStep.userEntersTheLastNameToAdress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69298600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enters the Address",
+            "match": {
+              "location": "RegisterStep.userEntersTheAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60131700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters the City",
+            "match": {
+              "location": "RegisterStep.userEntersTheCity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104859500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user selects the State",
+            "match": {
+              "location": "RegisterStep.userSelectsTheState()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78849300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enters the Zip/Post Code",
+            "match": {
+              "location": "RegisterStep.userEntersTheZipPostCode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64006300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user selects the Country",
+            "match": {
+              "location": "RegisterStep.userSelectsTheCountry()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73869200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enters the Mobile Phone",
+            "match": {
+              "location": "RegisterStep.userEntersTheMobilePhone()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5285016000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user enters the City Assign an address alias for future reference.",
+            "match": {
+              "location": "RegisterStep.userEntersTheCityAssignAnAddressAliasForFutureReference()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1375562700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user click register button",
+            "match": {
+              "location": "RegisterStep.userClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user sees the My account page",
+            "match": {
+              "location": "RegisterStep.userSeesTheMyAccountPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1492590400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user returns to homepage",
+            "match": {
+              "location": "RegisterStep.userReturnsToHomepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User sees dresses category on home page",
+            "match": {
+              "location": "RegisterStep.userSeesDressesCategoryOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 141257200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user clicks on dresses category and opens dropdown",
+            "match": {
+              "location": "RegisterStep.userClicksOnDressesCategoryAndOpensDropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5286417600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User clicks on the subcategory summer dresses",
+            "match": {
+              "location": "RegisterStep.userClicksOnTheSubcategorySummerDresses()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6916139700,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user selects a product",
+            "match": {
+              "location": "RegisterStep.userSelectsAProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5319579900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user adds product to cart",
+            "match": {
+              "location": "RegisterStep.userAddsProductToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1937601000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user clicks continue shopping button",
+            "match": {
+              "location": "RegisterStep.userClicksContinueShoppingButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55578300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user clicks search",
+            "match": {
+              "location": "RegisterStep.userClicksSearch()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5330552900,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "The user types the word they want to search.",
+            "match": {
+              "location": "RegisterStep.theUserTypesTheWordTheyWantToSearch()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6701239000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user clicks the search button",
+            "match": {
+              "location": "RegisterStep.userClicksTheSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1313356700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user selects a productTwo",
+            "match": {
+              "location": "RegisterStep.userSelectsAProductTwo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5323248700,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user adds productTwo to cart",
+            "match": {
+              "location": "RegisterStep.userAddsProductTwoToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6973294200,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user clicks proceed to checkout button",
+            "match": {
+              "location": "RegisterStep.userClicksProceedToCheckoutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28300,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "a web browser is at the cart page",
+            "match": {
+              "location": "RegisterStep.aWebBrowserIsAtTheCartPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user checks for added products",
+            "match": {
+              "location": "RegisterStep.userChecksForAddedProducts()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6800,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user checks the name of their added product",
+            "match": {
+              "location": "RegisterStep.userChecksTheNameOfTheirAddedProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user checks the number of products added",
+            "match": {
+              "location": "RegisterStep.userChecksTheNumberOfProductsAdded()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user checks the price of their added products",
+            "match": {
+              "location": "RegisterStep.userChecksThePriceOfTheirAddedProducts()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11554416200,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user clicks proceed the checkout button",
+            "match": {
+              "location": "RegisterStep.userClicksProceedTheCheckoutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17600,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user sees address page",
+            "match": {
+              "location": "RegisterStep.userSeesAddressPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6871141900,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user clicks proceed the checkout buttonn",
+            "match": {
+              "location": "RegisterStep.userClicksProceedTheCheckoutButtonn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34300,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user Choose a shipping option",
+            "match": {
+              "location": "RegisterStep.userChooseAShippingOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88469900,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user clicks terms of service checkbox",
+            "match": {
+              "location": "RegisterStep.userClicksTermsOfServiceCheckbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11694428800,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user clicks proceed the checkout buttonTwo",
+            "match": {
+              "location": "RegisterStep.userClicksProceedTheCheckoutButtonTwo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6692482400,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user choose any payment method",
+            "match": {
+              "location": "RegisterStep.userChooseAnyPaymentMethod()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7025158700,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user clicks ı confirm my order button",
+            "match": {
+              "location": "RegisterStep.userClicksIConfirmMyOrderButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6269780300,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user clicks on my user account",
+            "match": {
+              "location": "RegisterStep.userClicksOnMyUserAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21500,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "a web browser is at the my account page",
+            "match": {
+              "location": "RegisterStep.aWebBrowserIsAtTheMyAccountPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7641739000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user clicks Order history and details button",
+            "match": {
+              "location": "RegisterStep.userClicksOrderHistoryAndDetailsButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 57,
+            "name": "user check order referance",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@register"
+          }
+        ]
+      }
+    ],
+    "name": "Create Account",
+    "description": "",
+    "id": "create-account",
+    "keyword": "Feature",
+    "uri": "Register.feature"
+  }
+]

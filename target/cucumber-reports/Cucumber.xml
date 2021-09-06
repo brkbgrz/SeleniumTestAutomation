@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="167.342386">
+<testcase classname="Create Account" name="User registers by successfully completing the registration form" time="167.342386">
+<skipped><![CDATA[Given a web browser is at the automationpractice home page..................passed
+When the user click sign in button..........................................passed
+Then user sees the AUTHENTICATION page......................................passed
+And User enters account creation email address..............................passed
+And click on create account button..........................................passed
+Then user sees the create an account page...................................passed
+And user sees the personal information......................................passed
+And user clicks title.......................................................passed
+And user enters the First Name..............................................passed
+And user enter the Last name................................................passed
+And user enters the First Name..............................................passed
+And user enters the Password................................................passed
+Then user sees the your adress..............................................passed
+And user enters the First Name to adress....................................passed
+And user enters the Last Name to adress.....................................passed
+And user enters the Address.................................................passed
+And user enters the City....................................................passed
+And user selects the State..................................................passed
+And user enters the Zip/Post Code...........................................passed
+And user selects the Country................................................passed
+And user enters the Mobile Phone............................................passed
+And user enters the City Assign an address alias for future reference.......passed
+And user click register button..............................................passed
+Then user sees the My account page..........................................passed
+And user returns to homepage................................................passed
+Given User sees dresses category on home page...............................passed
+When user clicks on dresses category and opens dropdown.....................passed
+And User clicks on the subcategory summer dresses...........................passed
+And user selects a product..................................................passed
+And user adds product to cart...............................................passed
+And user clicks continue shopping button....................................passed
+Then user clicks search.....................................................passed
+And The user types the word they want to search.............................passed
+And user clicks the search button...........................................passed
+And user selects a productTwo...............................................passed
+And user adds productTwo to cart............................................passed
+And user clicks proceed to checkout button..................................passed
+Given a web browser is at the cart page.....................................passed
+When user checks for added products.........................................passed
+And user checks the name of their added product.............................passed
+And user checks the number of products added................................passed
+And user checks the price of their added products...........................passed
+And user clicks proceed the checkout button.................................passed
+Then user sees address page.................................................passed
+And user clicks proceed the checkout buttonn................................passed
+And user Choose a shipping option...........................................passed
+And user clicks terms of service checkbox...................................passed
+And user clicks proceed the checkout buttonTwo..............................passed
+And user choose any payment method..........................................passed
+And user clicks ı confirm my order button...................................passed
+And user clicks on my user account..........................................passed
+Given a web browser is at the my account page...............................passed
+Then user clicks Order history and details button...........................passed
+And user check order referance..............................................undefined
+]]></skipped>
+</testcase>
+</testsuite>
